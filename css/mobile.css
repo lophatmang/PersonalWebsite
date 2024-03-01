@@ -1,0 +1,61 @@
+@media screen and (max-width: 600px) {
+  /* body {
+    background-color: #00800046;
+  } */
+  .nav-bar .container {
+    position: relative;
+    display: flex; /* sắp xếp các phần tử theo hàm flex hàm 1 chiều */
+    flex-direction: column;
+  }
+  .nav-bar1 {
+    flex-direction: column;
+  }
+  .nav-bar2 {
+    flex-direction: column;
+  }
+  .nav-bar a {
+    border-left: none;
+  }
+  .nav-bar a:last-child {
+    border-right: none;
+  }
+
+  .about .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .job-info .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .certificate .container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .job-box {
+    min-height: 200px;
+  }
+  .cert-post {
+    border-bottom: 2px solid #d6c08d;
+    align-items: center;
+  }
+  .cert-post1 {
+    /* chọn phần tử div thứ 2 */
+    border-right: none;
+  }
+  .cert-post3 {
+    border-top: none;
+    padding: 40px 0;
+  }
+  .project {
+    display: flex;
+    flex-direction: column;
+  }
+  .style-list span {
+    display: none;
+  }
+  .style-list i {
+    font-size: 50px;
+  }
+}
