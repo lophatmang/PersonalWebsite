@@ -111,11 +111,11 @@ ul {
   position: relative;
 }
 .close-info {
-  font-size: 20px;
+  font-size: 15px;
   border-radius: 20px;
   position: absolute;
   right: 0;
-  top: 0;
+  top: 100%;
   padding: 5px 10px;
 }
 #personal-info li {
@@ -148,6 +148,7 @@ ul {
 }
 #personal-info button[type='submit'] {
   margin-top: 20px;
+  border-radius: 20px;
 }
 #personal-info input:focus {
   /* input khi đang nhập */
@@ -347,7 +348,9 @@ ul {
 .project-box {
   display: grid;
   grid-template-columns: 1fr;
+  cursor: pointer;
 }
+
 .project-flex {
   display: flex;
   gap: 20px;
@@ -400,4 +403,106 @@ ul {
 }
 .style-list i {
   font-size: 30px;
+}
+
+/* digital */
+header {
+  margin: 20px;
+}
+.navbar nav a {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5); /* đổ bóng mờ cho box */
+  color: #fff;
+  background-color: #1d9dd9;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.navbar nav a:hover {
+  background-color: #1d9dd9b2;
+  transform: scale(1.02);
+}
+.navbar h1 a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.digital .container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  border: 10px solid #0d6efd;
+  padding: 0;
+  max-width: 100%;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.5); /* đổ bóng mờ cho box */
+}
+
+.digital-box {
+  border: 10px solid #0d6efd;
+  background-color: #0dcaf01c;
+}
+.digital-box h3 {
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #0d6efd;
+  margin: 20px 10px;
+  border-bottom: 1px solid #6c757d;
+}
+.digital-box4 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.digital-box3 {
+  grid-column: 3/4;
+  grid-row: 1/3;
+}
+.digital-info1 {
+  margin: 10px 40px;
+  display: flex;
+  gap: 50px;
+}
+.digital-box1 .digital-info1 {
+  border-bottom: 1px solid #e9e6e6fd;
+}
+.digital-info1:last-child {
+  margin-bottom: 40px;
+}
+.digital-info1 i {
+  font-size: 30px;
+  justify-self: center;
+  align-self: center;
+}
+.digital-info1 h4 {
+  justify-self: center;
+  align-self: center;
+  border: 2px solid #212529;
+  border-radius: 50%;
+  padding: 10px;
+  color: #fff;
+  background-color: #6e42c185;
+}
+.digital-box3 .digital-info1 {
+  gap: 15px;
+  margin-right: 10px;
+}
+.digital-box3 .digital-info1 div {
+  border-bottom: 1px dashed #00ffff;
+  padding: 0 15px;
+}
+.digital-info1 p {
+  margin-bottom: 5px;
+}
+.digital-info1 span {
+  font-weight: bold;
+}
+.digital-scopes {
+  display: flex;
+  gap: 40px;
+  padding: 0 20px 40px 20px;
+}
+.digital-scopes span {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
 }

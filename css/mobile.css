@@ -55,7 +55,11 @@
   .style-list span {
     display: none;
   }
-  .style-list i {
+  #footer .style-list i {
     font-size: 50px;
+  }
+  .navbar .container {
+    flex-direction: column;
+    gap: 40px;
   }
 }

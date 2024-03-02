@@ -97,4 +97,15 @@
     gap: 10px;
     padding: 10px 10px;
   }
+  .digital .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .digital-info1 {
+    flex-direction: column;
+  }
+  .digital-scopes {
+    flex-direction: column;
+    padding: 0 20px 40px 40px;
+  }
 }
