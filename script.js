@@ -14,7 +14,7 @@ let changer = 0;
 document.getElementById('btn-email').addEventListener('click', function () {
   const inputEmail = document.querySelector('.input-email').value;
   if (!inputEmail) {
-    alert('⛔Bạn chưa nhập email❗❗❗❗❗❗❗❗❗❗❗❗❗❗');
+    alert('⛔Bạn chưa nhập email❗');
   } else if (!regex.test(inputEmail)) {
     alert('địa chỉ Email không hợp lệ ❌');
   } else {
