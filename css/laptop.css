@@ -99,11 +99,11 @@ ul {
   display: grid; /* sắp xếp các phần tử trong div theo kiểu grid  2 chiều  */
   grid-template-columns: 1fr 1fr; /* tạo 2 cột */
 }
-#target {
+.target {
   background-color: #f7f7f7;
   padding: 80px 40px 40px 40px;
 }
-#personal-info {
+.personal-info {
   background-color: #adadad77;
   padding: 80px 40px 40px 40px;
 }
@@ -118,15 +118,15 @@ ul {
   top: 100%;
   padding: 5px 10px;
 }
-#personal-info li {
+.personal-info li {
   list-style-type: none;
   margin-bottom: 10px;
 }
-#personal-info li span {
+.personal-info li span {
   font-weight: bold;
 }
-#target h1,
-#personal-info h1 {
+.target h1,
+.personal-info h1 {
   margin-bottom: 40px;
 }
 .contact {
@@ -135,10 +135,10 @@ ul {
 .contact a {
   text-decoration: none;
 }
-#personal-info .form-control {
+.personal-info .form-control {
   margin: 10px 0;
 }
-#personal-info input[type='email'] {
+.personal-info input[type='email'] {
   /* chọn input email ko lấy submit*/
   border: 0;
   /* border-bottom: 1px solid #b4b3cb; */
@@ -146,11 +146,11 @@ ul {
   padding: 3px;
   font-size: 16px;
 }
-#personal-info button[type='submit'] {
+.personal-info button[type='submit'] {
   margin-top: 20px;
   border-radius: 20px;
 }
-#personal-info input:focus {
+.personal-info input:focus {
   /* input khi đang nhập */
   outline: none; /*bỏ viền xung quanh input*/
 }

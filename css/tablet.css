@@ -23,11 +23,11 @@
     transform: translate(-60%, -50%);
     color: #f7f7f7;
   }
-  #target {
+  .target {
     background-color: #f7f7f7;
     padding: 40px 20px 20px 20px;
   }
-  #personal-info {
+  .personal-info {
     background-color: #adadad77;
     padding: 40px 20px 20px 20px;
   }
