@@ -10,7 +10,7 @@
  
 </ul>
 <h1>Demo link: </h1>
-<p>https://lophatmang.github.io/PersonalWebsite//</p>
+<p>https://lophatmang.github.io/PersonalWebsite/</p>
 <h1>Deployment guide (on local)</h1>
 <ol>
   <li>Download or Clone the folder</li>
