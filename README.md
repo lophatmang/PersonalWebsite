@@ -4,9 +4,9 @@
 <p>Some functions:</p>
 <ul>
   <li> Responsive to suit mobile, table, and PC devices</il>
-  <li> Fill out the form and check the email format is correct</il>
+  <li> input form check the email format is correct</il>
   <li> Use display: none css and javascript events to hide and show information</il>
-  <li> Use click event to navigate the page</il>
+  <li> Use click event listener to navigate the page</il>
  
 </ul>
 <h1>Demo link: </h1>
