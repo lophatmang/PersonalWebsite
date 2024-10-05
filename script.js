@@ -77,10 +77,26 @@ function digital() {
 // chuyển hướng tab mới
 function digital() {
   window.open('digital-cv.html');
-}
-*/
+  }
+  */
 
-// click vô 1 chỗ bất kỳ trong phần project
-for (let a = 0; a < project.length; a++) {
-  project[a].addEventListener('click', digital);
-}
+//  // click vô 1 chỗ bất kỳ trong phần project
+//  for (let a = 0; a < project.length; a++) {
+//    project[a].addEventListener('click', digital);
+//   }
+
+const project1 = document
+  .querySelector('.project-box1')
+  .addEventListener('click', () => {
+    window.location = 'https://booking-app-client-five.vercel.app/';
+  });
+const project2 = document
+  .querySelector('.project-box2')
+  .addEventListener('click', () => {
+    window.location = 'https://shopapprjs.vercel.app/';
+  });
+const project3 = document
+  .querySelector('.project-box3')
+  .addEventListener('click', () => {
+    window.location = 'https://movieappreactjs.vercel.app/';
+  });
